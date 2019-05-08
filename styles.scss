@@ -145,13 +145,13 @@ p.smaller {
   /**
    * Use em rather than px for sizing spacers. Then they will scale down in mobile view.
    */
-  font-size: 1px;
+  font-size: 100px;
 
   @media (max-width: 991px) {
-    font-size: 0.7px;
+    font-size: 70px;
   }
   @media (max-width: 767px) {
-    font-size: 0.5px;
+    font-size: 50px;
   }
 }
 
